@@ -1,0 +1,30 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Arial, sans-serif;
+}
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+#overlay {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 15px 20px;
+  border-radius: 10px;
+  color: rgb(224, 224, 224);
+}
+#overlay h1 {
+  font-size: 24px;
+  margin: 0 0 10px;
+}
+#overlay p {
+  font-size: 16px;
+  margin: 0;
+}
